@@ -24,7 +24,6 @@
             if(success){
                 Console.WriteLine(output);
             }else {
-                // throw new InvalidOperationException($"{input} is not a valid input");
                 Console.WriteLine($"Error: {input} is not a valid input");
             }
 
